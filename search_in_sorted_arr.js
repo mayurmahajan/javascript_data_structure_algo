@@ -1,5 +1,3 @@
-
-
 function binarysearch(arr, searchnumber) {
 
     var low = 0;
