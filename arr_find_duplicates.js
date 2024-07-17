@@ -1,6 +1,6 @@
 var merge = function(nums1, m, nums2, n) {
     var nums2_last=n-1;
-    var nums1_last=m-1 >=0 ? m-1 : nums1.length-1;
+    var nums1_last= m-1;
     var write_at=nums1.length-1;
 
     while(nums1_last>=0 && nums2_last>=0) {
